@@ -1,0 +1,21 @@
+/*Imports*/ 
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;500;600&display=swap');
+
+/*Globals*/
+@import "./variables";
+@import "./globals"; 
+
+/*Partials*/
+@import "./partials/mains";
+@import "./partials/header";
+@import "./partials/footer";
+
+/*Pages*/
+@import "./pages/inicio";
+@import "./pages/nosotros";
+@import "./pages/adopta";
+@import "./pages/comoayudar";
+@import "./pages/contacto";
+/*Errores*/
+@import "./pages/404" ; 
+@import "./pages/mqueries"; 

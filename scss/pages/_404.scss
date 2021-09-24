@@ -1,0 +1,28 @@
+.error{
+    width: 80vw;
+    height: 70vh;
+    margin: $rem10 auto;
+    @include grid (1fr,auto,$rem2);
+    align-content: center;
+    justify-items: center;
+    background-image: url("../img/captura3.jpg");
+    background-repeat: no-repeat;
+    // // background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    &__titulo1{
+        font-size: 6em;}
+    &__titulo2{
+        font-size: 4em;
+    }
+    &__texto{
+        font-size: 3em;
+        &__link{
+            text-decoration: underline;
+        }
+    }
+    &__imagen{
+        margin-top: $rem5;
+    }
+
+}

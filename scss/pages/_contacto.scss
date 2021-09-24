@@ -1,0 +1,41 @@
+.form{
+    font-size: 2em;
+    font-weight: normal;
+    margin-left: 20rem;
+   
+    &__input{
+        letter-spacing: 0.1rem;
+        margin-bottom: 2rem;
+        &__picture{
+            margin-left: 10rem;
+            margin-bottom: 25rem;
+            position: relative;
+            z-index: 1;
+            &__textarea{
+                @include dimensiones(62rem, 15rem);
+                // width: 62rem;
+                // height: 15rem;
+                border: none;
+                margin-top: -1.5rem; 
+                position: relative;
+                padding: 2rem; 
+                
+            }
+        }        
+    }
+    &__boton{
+        padding: 0.5rem;
+        margin: 2rem;
+    }
+    
+}
+
+
+
+
+// /* Estilo main para Form - Página Contacto*/
+
+// main input[type=submit]{
+//     margin-left: 40rem;
+//     margin-right: 1rem;
+// }

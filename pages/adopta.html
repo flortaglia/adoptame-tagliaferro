@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="¡Adoptá una mascota y cambia su vida! Encontrá cachorros, perros y gatos. ">
+    <meta name="keywords" content="perros, adopta, adopción, perros caba, gatos, cachorros, perdidos y encontrados, mascotas">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    
+    <title>Adoptá, no compres</title>
+</head>
+<body>
+    <header><!--inicio header-->
+        <nav class="navigation">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo" class="navigation__logo"></a>
+            <ul class="navigation__menu">
+                <li><a class="navigation__menu__links" href="../index.html">Inicio</a></li>
+                <li><a class="navigation__menu__links" href="nosotros.html">Nosotros</a></li>
+                <li><a class="navigation__menu__links" href="adopta.html">Adopta</a></li>
+                <li><a class="navigation__menu__links" href="como-ayudar.html">Como Ayudar</a></li>
+                <li><a class="navigation__menu__links" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+        <nav id="navRow" class="nav nav-tabs">
+            
+            <a class="nav-link" href="../index.html">Inicio</a>
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+            <a class="nav-link" href="adopta.html">Adopta</a>           
+            <a class="nav-link" href="como-ayudar.html">Como Ayudar</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            
+        </nav> -->
+        <!-- Nav para MediaQuery(max-width:576px) -->
+        <!-- <nav  id="navCol" class="nav flex-column nav-pills">
+            
+            <a class="nav-link" href="../index.html">Inicio</a>
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+            <a class="nav-link active" aria-current="page" href="adopta.html">Adopta</a>           
+            <a class="nav-link" href="como-ayudar.html">Como Ayudar</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+        </nav> -->
+    </header><!--fin header-->
+
+    <main class="mainAdopta">
+        <div class="row mainAdopta__inicio" >
+            <img  class="col-1 mainAdopta__inicio__imagenAdopta" src="../img/nocompres2.jpg" alt="Imagen que dice Adpta no compres">
+            <h1 id="myTabH1"class="mainAdopta__inicio__Titulo1 col">Adoptá no compres. Te aseguramos que nunca te arrepentirás.</h1>
+            <h1 id="accordionH1" class="mainAdopta__inicio__Titulo2 col">Adoptá no compres. </h1>
+        </div>
+        
+        <!-- Inicio uso Bootstrap -Home tab's associated content -->
+        
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="perrosTallaGrande-tab" data-bs-toggle="tab" data-bs-target="#perrosTallaGrande" type="button" role="tab" aria-controls="perrosTallaGrande" aria-selected="true">Perros de Talla Grande</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="perrosTallaMediana-tab" data-bs-toggle="tab" data-bs-target="#perrosTallaMediana" type="button" role="tab" aria-controls="perrosTallaMediana" aria-selected="false">Perros de Talla Mediana</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="perrosTallaChica-tab" data-bs-toggle="tab" data-bs-target="#perrosTallaChica" type="button" role="tab" aria-controls="perrosTallaChica" aria-selected="false">Perros de Talla Chica</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="gatos-tab" data-bs-toggle="tab" data-bs-target="#gatos" type="button" role="tab" aria-controls="gatos" aria-selected="false">Gatos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link"  id="perdidosEncontrados-tab" data-bs-toggle="tab" data-bs-target="#perdidosEncontrados" type="button" role="tab" aria-controls="perdidosEncontrados" aria-selected="false">Perdidos y Encontrados</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="perrosTallaGrande" role="tabpanel" aria-labelledby="perrosTallaGrande-tab">
+                <div class="row">
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/Buck.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Buck</h3>
+                            <p class="card-text">Es muy cariñoso y juguetón. Muy sociable.
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Grande</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 4años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/Rocky2.JPG" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Rocky</h3>
+                            <p class="card-text">Es muy cariñoso y juguetón.
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Grande</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 2años</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="perrosTallaMediana" role="tabpanel" aria-labelledby="#perrosTallaMediana-tab">
+                <div class="row">
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/andromeda.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Andromeda</h3>
+                            <p class="card-text">Es muy cariñosa y juguetona. 
+                            Muy sociable. Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Mediana</li>
+                            <li class="list-group-item">Sexo: Hembra</li>
+                            <li class="list-group-item">Edad Apróx.: 6 años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/Rocky2.JPG" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Rocky</h3>
+                            <p class="card-text">Es muy cariñoso y juguetón.
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Mediana</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 3 años</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="perrosTallaChica" role="tabpanel" aria-labelledby="perrosTallaChica-tab">
+                <div class="row">
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/teddy.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Teddy</h3>
+                            <p class="card-text">Muy dinámico y juguetón. 
+                            Ideal para una familia con niños pequeños. Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Chica</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 3 años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/Pipo.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Pipo</h3>
+                            <p class="card-text">Es muy cariñoso y juguetón.
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Chica</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 3 años</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="gatos" role="tabpanel" aria-labelledby="gatos-tab">
+                <div class="row">
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/sofi.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Sofi</h3>
+                            <p class="card-text">Es muy cariñosa y juguetona. Muy sociable. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Hembra</li>
+                            <li class="list-group-item">Edad Apróx.: 4años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-mitch.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Mitch</h3>
+                            <p class="card-text">Es muy cariñoso y alegre. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 2 años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-snip.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Snip</h3>
+                            <p class="card-text">Es muy sociable y mimoso. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 1 año</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-bebe.jpeg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Jack</h3>
+                            <p class="card-text">Muy dinámico y juguetón. 
+                            Ideal para una familia con chicos.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 4 meses</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gatos-bebe1.jpeg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Pepe</h3>
+                            <p class="card-text">Muy dinámico y juguetón. 
+                            Ideal para una familia con chicos.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 3 meses</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="tab-pane fade" id="perdidosEncontrados" role="tabpanel" aria-labelledby="perdidosEncontrados-tab">
+                <div class="row">
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/Rocky2.JPG" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Rocky</h3>
+                            <p class="card-text">Es muy cariñoso y juguetón.
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Talla: Grande</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 2años</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+        
+        <!-- inicio Acordeon - Usado para Media Query de 0 a 940px -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Perros
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Gatos
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body row">
+                    
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/sofi.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Sofi</h3>
+                            <p class="card-text">Es muy cariñosa y juguetona. Muy sociable. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Hembra</li>
+                            <li class="list-group-item">Edad Apróx.: 4años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-mitch.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Mitch</h3>
+                            <p class="card-text">Es muy cariñoso y alegre. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 2 años</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-snip.jpg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Snip</h3>
+                            <p class="card-text">Es muy sociable y mimoso. 
+                            Se lleva bien con otros animales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 1 año</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gato-bebe.jpeg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Jack</h3>
+                            <p class="card-text">Muy dinámico y juguetón. 
+                            Ideal para una familia con chicos.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 4 meses</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="../img/adopta/gatos-bebe1.jpeg" class="card-img-top" alt="Foto perro">
+                        <div class="card-body">
+                            <h3 class="card-title">Pepe</h3>
+                            <p class="card-text">Muy dinámico y juguetón. 
+                            Ideal para una familia con chicos.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Edad Apróx.: 3 meses</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Perdidos y Encontrados
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </main>
+
+    <footer><!--inicio footer-->
+        <p>Dirección</p>
+        <a href="mailto:adoptame@gmail.com">adoptame@gmail.com</a>
+        <br>
+        <a href="mapa-sitio.html">Mapa del sitio - Ayuda para una buena navegación</a>
+        <br>
+        <a href="https://www.facebook.com/adoptame.org"><img src="../img/logofacebook.png" alt="logofacebook"width="65" height="40"></a>
+        <a href="https://www.instagram.com/adoptame.org"><img src="../img/logoInstagram.jpg" alt="logoInstagram"width="40" height="40"></a>
+    </footer><!--Fin footer-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+   
+</body>
+</html>

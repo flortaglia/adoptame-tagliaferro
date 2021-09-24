@@ -1,0 +1,60 @@
+.mainNosotros{
+    display: flex;
+    flex-direction: column;
+    &__titulo3{
+        margin-bottom: 2rem;
+        &__link{
+             font-size: 1em;
+        }
+    }
+}
+
+.seccionNosotros{
+    margin:0 auto 2rem auto;
+    @include dimensiones(80%, auto);
+    // width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+        
+    &__imagen{
+        @include dimensiones(70rem, auto);
+        // width: 70rem;
+        margin-bottom: 2rem; 
+        align-self: center;
+    }
+        
+
+    &__parrafo{
+        align-self: center;
+        
+        position: relative;
+        background:rgb(177, 116, 206);
+        padding: 3rem 5rem;
+        margin: 1rem;
+        
+        &::before{
+            background: #FA58AC;
+            transform: rotate(3deg);
+        }
+        &::after{
+            background: #81f7d8;
+            transform: rotate(-3deg);
+        }
+    
+        &::after,&::before{
+            content:" "; 
+            @include dimensiones(100%, 100%);
+            // width: 100%;
+            // height: 100%;
+            padding: 2rem;
+            position:absolute;
+            z-index: -1;
+            left: 0;
+            top: 0;
+                                
+        }
+    }
+}
+
+ 

@@ -1,0 +1,30 @@
+header{
+    
+    padding: 1rem 0rem;    
+    background-image: linear-gradient(to right top, #419eb2, #009cc8, #0097de, #2c8dee, #727ef3, #9772ed, #b863e2, #d450d2, #e246c5, #ee3cb7, #f733a8, #ff2b99);
+}
+
+.navigation{
+  
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        width: 10rem;
+        height: auto;        
+    }
+    &__menu{
+        display: flex;
+        gap: 1rem;
+        &__links{
+            color: black;
+            padding: 1rem;
+            font-size: 2.6em;
+            
+        }
+    }
+
+    
+}
+

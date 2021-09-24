@@ -1,0 +1,26 @@
+main{
+    width: 80vw;
+    min-height:70vh;
+    
+    margin: 0 auto 0 auto;
+    p{
+        font-size: 1.8em;
+        font-weight: normal;
+        text-align: justify;
+        letter-spacing: 0.1rem;
+    }
+    h1{
+        font-size: 2.6em;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    h2{
+        font-size: 2.4em; 
+        padding: 1rem;
+        margin: 1rem;
+    }
+    h3, a{
+        font-size: 2.2em;
+    }
+    
+}

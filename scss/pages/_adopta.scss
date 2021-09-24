@@ -1,0 +1,27 @@
+.mainAdopta{
+    &__inicio{
+        align-items: center;
+        padding: 2rem;
+        &__imagenAdopta{
+            width: 10rem;             
+        }
+    }
+    
+}
+// Cambiando clases de Bootstrap asociado al Home Tab Content
+.nav-link{
+    color: black;
+    font-size: 2em;
+    padding: 0 1.5rem;
+
+}
+.list-group-item{
+    font-size: 1.8em;
+}
+.card{
+    padding: 0;
+    margin: 2rem;
+}
+
+ 
+
