@@ -102,14 +102,14 @@
 }
 @media only screen and (max-width:768px) {
     
-    .section-ayuda{
+    .sectionAyuda{
         grid-template-columns: repeat(2,1fr);
         margin: 2rem 0;    
     }
     .mainAyuda__titulo1{
         display: none;
     }
-    .mainAyuda{
+    .sectionAyuda{
         margin-top: 2rem;
         &__titulo2{
             display: block;
@@ -145,7 +145,7 @@
 } 
 @media only screen and (max-width:680px) {
     
-    .section-ayuda{
+    .sectionAyuda{
         grid-template-columns: 1fr; 
         height: auto; 
         margin: 2rem;  
