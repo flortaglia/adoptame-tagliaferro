@@ -13,13 +13,13 @@
 
 }
 .article{
-    background: aliceblue;
+    background: #fdfbfe;
     padding: 3rem;
-    border-style: outset;
-    // border-style: none groove groove none;
-    border-width: 1rem;
+    border:1px solid blueviolet;;
+    
     &__titulo{
         margin-bottom: 1.5rem;
+        color: blueviolet;
     }
     &__parrafo{
         text-align: inherit;
