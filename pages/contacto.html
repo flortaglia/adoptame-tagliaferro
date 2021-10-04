@@ -32,23 +32,23 @@
     </header><!--fin header-->
 
     <main><!--inicio main-->
-        <h1>Contáctanos</h1>
+        <h1 class="tituloContacto">Contáctanos</h1>
         <form action="enviar.html" class="form">
             
-            <div class="form__input">
+            <!-- <div class="form__input"> -->
                 <label  for="nombre">Nombre y Apellido:  </label>
                 <input  type="text" name="name" id="nombre" placeholder="Insertar Nombre">
-            </div>
+            <!-- </div> -->
             <!-- <div class="form__input">
                 <label for="teléfono">Teléfono: </label>
                 <input type="text" name="surname" id="apellido" placeholder="Insertar Apellido">
                 <input type="number" name="" id="teléfono" placeholder="">
             </div>  -->
-            <div class="form__input">
+            <!-- <div class="form__input"> -->
                 <label for="mail">E-mail: </label>
                 <input type="email" name="email" id="mail" placeholder="Insertar E-mail">
-            </div>
-            <div class="form__input">
+            <!-- </div> -->
+            <!-- <div class="form__input"> -->
                 <label for="motivo">Motivo: </label>
                 <select name="reason" id="reason">
                     <option value="adoptar">Adoptar</option>
@@ -56,11 +56,11 @@
                     <option value="donar">Donar</option>
                     <option value="otro">Otro</option>
                 </select>
-            </div>
-            <div class="form__input">
+            <!-- </div>
+            <div class="form__input"> -->
                 <label for="newsletter">Quiero suscribirme a las Newsletter</label>
-                <input type="checkbox" name="suscribeToNewsletter" id="newsletter">
-            </div>
+                <input type="checkbox" class="form__checkbox" name="suscribeToNewsletter" id="newsletter">
+            <!-- </div> -->
             <!-- <div class="form__input">
                 <label for="acceptCondition">Acepto los terminos y condiciones</label>
                 <input type="checkbox" name="acceptCondition" id="acceptCondition">
@@ -68,7 +68,7 @@
         
             <div class="form__input">
                 <picture class="form__input__picture">               
-                <img src="../img/hola.png" alt="Hola adoptame- Foto cariñosa perros y gatos"> 
+                <img class="form__input__picture__imagen" src="../img/hola.png" alt="Hola adoptame- Foto cariñosa perros y gatos"> 
                 <div>
                     <textarea class="form__input__picture__textarea" name="message" id="fondo" cols="30" rows="10" autofocus placeholder="Ingresa tu mensaje"></textarea>
                 </div>

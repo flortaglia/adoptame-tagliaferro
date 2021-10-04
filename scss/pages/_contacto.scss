@@ -1,21 +1,29 @@
+.tituloContacto{
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
 .form{
     font-size: 2em;
     font-weight: normal;
     margin-left: 20rem;
-   
+    @include grid((min-content auto), auto, 1rem);
+    &__checkbox{
+        align-self: center;
+    }
     &__input{
         letter-spacing: 0.1rem;
         margin-bottom: 2rem;
+        grid-column: 1/3 ;
         &__picture{
             margin-left: 10rem;
             margin-bottom: 25rem;
             position: relative;
             z-index: 1;
             &__textarea{
-                @include dimensiones(62rem, 15rem);
+                @include dimensiones(80rem, 15rem);
                 // width: 62rem;
                 // height: 15rem;
-                border: none;
+                border: solid;
                 margin-top: -1.5rem; 
                 position: relative;
                 padding: 2rem; 
@@ -25,7 +33,7 @@
     }
     &__boton{
         padding: 0.5rem;
-        margin: 2rem;
+        margin: 2rem 2rem 2rem 0;
     }
     
 }

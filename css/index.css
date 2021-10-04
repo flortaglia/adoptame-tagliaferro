@@ -217,28 +217,39 @@ footer {
     font-size: 1.5em;
     display: inline-block; }
 
+.tituloContacto {
+  margin: 1rem 0;
+  padding: 1rem 0; }
+
 .form {
   font-size: 2em;
   font-weight: normal;
-  margin-left: 20rem; }
+  margin-left: 20rem;
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto;
+  gap: 1rem; }
+  .form__checkbox {
+    align-self: center; }
   .form__input {
     letter-spacing: 0.1rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    grid-column: 1/3; }
     .form__input__picture {
       margin-left: 10rem;
       margin-bottom: 25rem;
       position: relative;
       z-index: 1; }
       .form__input__picture__textarea {
-        width: 62rem;
+        width: 80rem;
         height: 15rem;
-        border: none;
+        border: solid;
         margin-top: -1.5rem;
         position: relative;
         padding: 2rem; }
   .form__boton {
     padding: 0.5rem;
-    margin: 2rem; }
+    margin: 2rem 2rem 2rem 0; }
 
 /*Errores*/
 .error {
@@ -354,3 +365,16 @@ footer {
       background: none; }
     .seccionNosotros__parrafo::after {
       background: none; } }
+
+@media only screen and (max-width: 576px) {
+  .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem; }
+    .form__input {
+      grid-column: 1/2; }
+      .form__input__picture__textarea {
+        width: auto; }
+      .form__input__picture__imagen {
+        display: none; } }
