@@ -16,13 +16,16 @@
     background: #fdfbfe;
     padding: 3rem;
     border:1px solid blueviolet;;
-    
+    &__link{
+        margin:$rem1;
+    }
     &__titulo{
         margin-bottom: 1.5rem;
         color: blueviolet;
     }
     &__parrafo{
         text-align: inherit;
+        margin-bottom: $rem1;
     }
 
     &__botonPago{

@@ -64,8 +64,45 @@ header {
       padding: 1rem;
       font-size: 3em; }
 
-footer {
-  background-image: linear-gradient(to right bottom, #5ffbf1, #00e3fe, #00c7ff, #00a8ff, #0083ff, #5d71f7, #895ae9, #aa39d3, #b63fd0, #c145cd, #cb4cca, #d454c8); }
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 2rem; }
+  .footer__datos {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 0.1rem; }
+    .footer__datos__link {
+      list-style-type: none;
+      color: black; }
+    .footer__datos__whatsapp, .footer__datos__mapa, .footer__datos__mail {
+      border-radius: 0;
+      margin-right: 1rem; }
+    .footer__datos__mapa, .footer__datos__mail {
+      color: blue; }
+    .footer__datos__whatsapp {
+      color: green; }
+  .footer__social {
+    display: flex; }
+    .footer__social__lista__link {
+      text-align: center;
+      line-height: 8rem;
+      font-size: 3.2rem;
+      margin: 0 1rem; }
+
+.fa {
+  z-index: 3;
+  width: 2rem; }
+
+.fa-instagram {
+  color: #ee4390; }
+
+.fa-twitter {
+  color: #03a9f4; }
 
 /*Pages*/
 .mainIndex {
@@ -203,11 +240,14 @@ footer {
   background: #fdfbfe;
   padding: 3rem;
   border: 1px solid blueviolet; }
+  .article__link {
+    margin: 1rem; }
   .article__titulo {
     margin-bottom: 1.5rem;
     color: blueviolet; }
   .article__parrafo {
-    text-align: inherit; }
+    text-align: inherit;
+    margin-bottom: 1rem; }
   .article__botonPago {
     padding: 1rem 1.5rem;
     margin: 1.5rem;
