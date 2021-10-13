@@ -259,19 +259,20 @@ header {
     font-size: 1.5em;
     display: inline-block; }
 
-.tituloContacto {
-  margin: 1rem 0;
-  padding: 1rem 0; }
-
 .form {
   width: 80%;
   margin: 0 auto;
   font-size: 2em;
   font-weight: normal;
   display: grid;
-  grid-template-columns: min-content min-content;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 1rem; }
+  .form__contacto {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    grid-column: 1/3;
+    font-size: 1.5em; }
   .form__checkbox {
     align-self: center; }
   .form__input {
@@ -279,12 +280,11 @@ header {
     margin-bottom: 2rem;
     grid-column: 1/3; }
     .form__input__picture {
-      margin-left: 10rem;
-      margin-bottom: 25rem;
       position: relative;
-      z-index: 1; }
+      z-index: 1;
+      margin: 0 auto 25rem auto; }
       .form__input__picture__textarea {
-        width: 80rem;
+        width: 100%;
         height: 15rem;
         border: solid;
         margin-top: -1.5rem;
@@ -380,10 +380,6 @@ header {
       height: auto; }
     .mainIndex__descripcion {
       grid-area: 2/1/3/2; }
-  .form__input__picture {
-    margin-left: 3rem; }
-    .form__input__picture__textarea {
-      width: 45rem; }
   .form__boton {
     margin-top: 0rem; }
   .mainAyuda__titulo1 {
@@ -401,7 +397,7 @@ header {
 
 @media only screen and (max-width: 768px) {
   main {
-    width: 100vw;
+    width: 100%;
     padding: 0 2rem; }
   .sectionAyuda {
     width: 80%;
@@ -435,6 +431,8 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 1rem; }
+    .form__contacto {
+      grid-column: 1/2; }
     .form__input {
       grid-column: 1/2; }
       .form__input__picture__textarea {
@@ -453,4 +451,6 @@ header {
     justify-items: center; }
     .footer__social {
       padding: 0;
-      grid-row: 1/2; } }
+      grid-row: 1/2; }
+  .form__boton {
+    width: 100%; } }

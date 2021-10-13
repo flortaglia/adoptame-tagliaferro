@@ -85,14 +85,14 @@
     }
     .form{
       
-        &__input{
-            &__picture{
-                margin-left: 3rem;
-                &__textarea{
-                    width: 45rem;
-                }
-            }
-        }
+        // &__input{
+        //     &__picture{
+        //     //     margin-left: 3rem;
+        //     //     // &__textarea{
+        //     //     //     width: 45rem;
+        //     //     // }
+        //     // }
+        // }
         &__boton{
             margin-top: 0rem;
         }    
@@ -128,7 +128,7 @@
 }
 @media only screen and (max-width:768px) {
     main{
-        width: 100vw;
+        width: 100%;
         padding: 0 2rem;
     }
     .sectionAyuda{
@@ -192,6 +192,11 @@
         // &__checkbox{
         //     justify-self: center;
         // }
+        &__contacto{
+            
+            grid-column: 1/2 ;
+           
+        }
         &__input{
             grid-column: 1/2 ;
             &__picture{
@@ -219,5 +224,8 @@
             padding: 0;
             grid-row: 1/2;
         }
+    }
+    .form__boton{
+        width: 100%;
     }
 }
