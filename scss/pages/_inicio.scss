@@ -69,13 +69,15 @@
             // width: 100%;
             // height: $rem2 * 10;
             padding: $rem1;
-            background:lightsteelblue;
+            // background:lightsteelblue;
+            background-color: #95B2B0;
         }
         &__links{
             
             display: block;
             text-align: center;
-            margin-bottom: $rem2;  
+            margin-bottom: $rem2; 
+            color: #212529; 
            
         }
 

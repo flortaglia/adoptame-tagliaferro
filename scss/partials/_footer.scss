@@ -5,7 +5,8 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #eaeaea; 
+    // background-color: #eaeaea; 
+    background-color: #647aa3;
     padding: 2rem;
     &__datos{
         font-size: 1.8em;
@@ -14,7 +15,8 @@
         letter-spacing: 0.1rem;
         &__link{
             list-style-type: none;
-            color: black;
+            // color: black;
+            color: #212529;
         }
         &__whatsapp, &__mapa, &__mail{
             border-radius: 0;
@@ -22,10 +24,12 @@
             
         }
         &__mapa, &__mail{
-            color: blue;
+            // color: blue;
+            color: #212529;
         }
         &__whatsapp{
-            color: green;
+            // color: green;
+            color: #212529;
         }
         
     }
@@ -53,11 +57,14 @@
 
 .fa{
     z-index: 3;
-    width: 2rem; 
+    width: 2rem;
+    color: #212529; 
 }
 .fa-instagram{
-    color: #ee4390;
+    // color: #ee4390;
+    color: #212529;
 }
 .fa-twitter{
-    color:#03a9f4 ;
+    // color:#03a9f4 ;
+    color: #212529;
 }
