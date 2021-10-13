@@ -441,3 +441,16 @@ header {
         width: 100%; }
       .form__input__picture__imagen {
         display: none; } }
+
+@media only screen and (max-width: 400px) {
+  .navigation__menu__links {
+    font-size: 2em; }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+    justify-items: center; }
+    .footer__social {
+      padding: 0;
+      grid-row: 1/2; } }

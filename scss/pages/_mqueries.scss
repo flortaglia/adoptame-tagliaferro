@@ -206,4 +206,18 @@
     }
    
     
-} 
+}
+
+@media only screen and (max-width:400px) {
+    .navigation__menu__links{
+        font-size: 2em;
+    }
+    .footer{
+        @include grid(1fr, auto,0);
+        justify-items: center;
+        &__social{
+            padding: 0;
+            grid-row: 1/2;
+        }
+    }
+}
