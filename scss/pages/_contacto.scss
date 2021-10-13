@@ -3,10 +3,12 @@
     padding: 1rem 0;
 }
 .form{
+    width: 80%;
+    margin:0 auto;
     font-size: 2em;
     font-weight: normal;
-    margin-left: 20rem;
-    @include grid((min-content auto), auto, 1rem);
+    // margin-left: 20rem;
+    @include grid((min-content min-content), auto, 1rem);
     &__checkbox{
         align-self: center;
     }

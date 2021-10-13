@@ -35,8 +35,8 @@ main {
     letter-spacing: 0.1rem; }
   main h1 {
     font-size: 3em;
-    padding: 1rem;
-    margin: 1rem; }
+    padding: 1rem 0;
+    margin: 1rem 0; }
   main h2 {
     font-size: 2.6em;
     padding: 1rem;
@@ -148,7 +148,7 @@ header {
   .mainIndex__descripcion {
     grid-area: 2/1/3/4;
     text-align: justify;
-    padding: 2rem; }
+    padding: 2rem 0; }
   .mainIndex__cuadros {
     justify-self: center; }
     .mainIndex__cuadros__imagen {
@@ -236,24 +236,24 @@ header {
   gap: 3rem;
   align-content: center;
   justify-content: center;
-  margin: 3rem 2rem; }
+  margin: 3rem 0rem; }
 
 .article {
   background: #fdfbfe;
   padding: 3rem;
-  border: 1px solid blueviolet; }
+  border: 0.2rem solid #95b2b0; }
   .article__link {
     margin: 1rem; }
   .article__titulo {
     margin-bottom: 1.5rem;
-    color: blueviolet; }
+    color: #647aa3; }
   .article__parrafo {
     text-align: inherit;
     margin-bottom: 1rem; }
   .article__botonPago {
     padding: 1rem 1.5rem;
     margin: 1.5rem;
-    background-color: blueviolet;
+    background-color: #334195;
     border-radius: 1rem;
     color: white;
     font-size: 1.5em;
@@ -264,11 +264,12 @@ header {
   padding: 1rem 0; }
 
 .form {
+  width: 80%;
+  margin: 0 auto;
   font-size: 2em;
   font-weight: normal;
-  margin-left: 20rem;
   display: grid;
-  grid-template-columns: min-content auto;
+  grid-template-columns: min-content min-content;
   grid-template-rows: auto;
   gap: 1rem; }
   .form__checkbox {
@@ -326,7 +327,7 @@ header {
     font-size: 1.8em;
     padding: 1rem;
     font-weight: 500; }
-  #accordionExample, #accordionH1, #navCol, .mainAdopta__inicio__Titulo2, .mainAyuda__titulo2 {
+  #accordionExample, #accordionH1, #navCol, .mainAdopta__inicio__Titulo2, .mainAyuda__titulo2, .sectionAyuda__titulo3 {
     display: none; }
   /* para el home  */
   .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -335,14 +336,20 @@ header {
   #carouselExampleIndicators {
     width: 100%;
     align-self: center;
-    overflow: hidden; }
-  .form {
-    margin-left: 0rem; } }
+    overflow: hidden; } }
+
+@media only screen and (max-width: 1350px) {
+  main {
+    width: 90vw;
+    padding: 0 2rem; } }
 
 @media only screen and (max-width: 1239px) {
   body {
     font-size: 0.8em; }
-  #myTab, #myTabContent, #myTabH1, #navCol, .mainAdopta__inicio__Titulo1 {
+  main {
+    width: 80vw;
+    padding: 0 2rem; }
+  #myTab, #myTabContent, #myTabH1, #navCol, .mainAdopta__inicio__Titulo1, .sectionAyuda__titulo3 {
     display: none; }
   #accordionExample, #accordionH1, .mainAdopta__inicio__Titulo2 {
     display: initial; }
@@ -373,14 +380,12 @@ header {
       height: auto; }
     .mainIndex__descripcion {
       grid-area: 2/1/3/2; }
-  .form {
-    margin-left: 0rem; }
-    .form__input__picture {
-      margin-left: 3rem; }
-      .form__input__picture__textarea {
-        width: 45rem; }
-    .form__boton {
-      margin-top: 0rem; }
+  .form__input__picture {
+    margin-left: 3rem; }
+    .form__input__picture__textarea {
+      width: 45rem; }
+  .form__boton {
+    margin-top: 0rem; }
   .mainAyuda__titulo1 {
     display: none; }
   .sectionAyuda {
@@ -395,10 +400,23 @@ header {
     transform: rotate(-6deg); } }
 
 @media only screen and (max-width: 768px) {
+  main {
+    width: 100vw;
+    padding: 0 2rem; }
   .sectionAyuda {
+    width: 80%;
+    margin: 2rem auto;
     grid-template-columns: 1fr;
-    height: auto;
-    margin: 2rem; }
+    height: auto; }
+    .sectionAyuda__titulo3 {
+      display: initial; }
+  #mainAyuda__titulo2 {
+    display: none; }
+  .form {
+    width: 80%;
+    margin: 2rem auto; }
+    .form__input__picture__textarea {
+      width: 100%; }
   .seccionNosotros__imagen {
     width: 100%; }
   .seccionNosotros__parrafo {
@@ -409,6 +427,9 @@ header {
       background: none; } }
 
 @media only screen and (max-width: 576px) {
+  .seccionNosotros__parrafo {
+    text-align: center;
+    word-spacing: 0.2rem; }
   .form {
     display: grid;
     grid-template-columns: 1fr;
@@ -417,6 +438,6 @@ header {
     .form__input {
       grid-column: 1/2; }
       .form__input__picture__textarea {
-        width: auto; }
+        width: 100%; }
       .form__input__picture__imagen {
         display: none; } }

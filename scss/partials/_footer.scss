@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     // background-color: #eaeaea; 
-    background-color: #647aa3;
+    background-color: $colorFooter;
     padding: 2rem;
     &__datos{
         font-size: 1.8em;
@@ -16,7 +16,7 @@
         &__link{
             list-style-type: none;
             // color: black;
-            color: #212529;
+            color: $colorLetraFooter;
         }
         &__whatsapp, &__mapa, &__mail{
             border-radius: 0;
@@ -25,11 +25,11 @@
         }
         &__mapa, &__mail{
             // color: blue;
-            color: #212529;
+            color: $colorLetraFooter;
         }
         &__whatsapp{
             // color: green;
-            color: #212529;
+            color: $colorLetraFooter;
         }
         
     }
@@ -58,13 +58,13 @@
 .fa{
     z-index: 3;
     width: 2rem;
-    color: #212529; 
+    color: $colorLetraFooter; 
 }
 .fa-instagram{
     // color: #ee4390;
-    color: #212529;
+    color: $colorLetraFooter;
 }
 .fa-twitter{
     // color:#03a9f4 ;
-    color: #212529;
+    color: $colorLetraFooter;
 }
