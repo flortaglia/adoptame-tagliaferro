@@ -100,11 +100,20 @@ header {
   width: 2rem;
   color: #212529; }
 
+.fa:hover {
+  color: blue; }
+
 .fa-instagram {
   color: #212529; }
 
+.fa-instagram:hover {
+  color: #ee4390; }
+
 .fa-twitter {
   color: #212529; }
+
+.fa-twitter:hover {
+  color: #03a9f4; }
 
 /*Pages*/
 .mainIndex {
