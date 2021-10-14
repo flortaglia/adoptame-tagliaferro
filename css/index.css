@@ -411,7 +411,7 @@ header {
   .form {
     width: 80%;
     margin: 2rem auto; }
-    .form__input__picture__textarea {
+    .form__textarea {
       width: 100%; }
   .seccionNosotros__imagen {
     width: 100%; }
@@ -453,4 +453,5 @@ header {
       padding: 0;
       grid-row: 1/2; }
   .form__boton {
-    width: 100%; } }
+    width: 100%;
+    margin: 0; } }
