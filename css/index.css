@@ -416,7 +416,7 @@ header {
   .seccionNosotros__imagen {
     width: 100%; }
   .seccionNosotros__parrafo {
-    width: 100%; }
+    width: 90%; }
     .seccionNosotros__parrafo::before {
       background: none; }
     .seccionNosotros__parrafo::after {
