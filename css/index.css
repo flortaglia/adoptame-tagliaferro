@@ -100,7 +100,7 @@ header {
   width: 2rem;
   color: #212529; }
 
-.fa:hover {
+.fa-facebook:hover {
   color: blue; }
 
 .fa-instagram {
@@ -303,6 +303,15 @@ header {
   .form__boton {
     padding: 0.5rem;
     margin: 2rem; }
+
+.recibido {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+  align-content: center;
+  justify-items: center; }
 
 /*Errores*/
 .error {

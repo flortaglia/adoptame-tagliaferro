@@ -1,0 +1,6 @@
+.recibido{
+    margin-bottom: $rem2;
+    @include grid (1fr,auto,$rem2);
+    align-content: center;
+    justify-items: center;
+}
