@@ -4,8 +4,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
-    // background-color: #eaeaea; 
+    align-items: center; 
     background-color: $colorFooter;
     padding: 2rem;
     &__datos{
@@ -15,7 +14,6 @@
         letter-spacing: 0.1rem;
         &__link{
             list-style-type: none;
-            // color: black;
             color: $colorLetraFooter;
         }
         &__whatsapp, &__mapa, &__mail{
@@ -39,14 +37,11 @@
         &__lista{
             
             &__link{
-                
-                // background: #fff;    
+                   
                 text-align: center;
                 line-height: 8rem;
                 font-size: 3.2rem;
                 margin: 0 1rem;
-                // border-radius: 50%;
-                // border: 1px solid #000;
                     
             }
     }
