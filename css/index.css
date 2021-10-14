@@ -292,7 +292,7 @@ header {
     padding: 2rem; }
   .form__boton {
     padding: 0.5rem;
-    margin: 2rem 2rem 2rem 0; }
+    margin: 2rem; }
 
 /*Errores*/
 .error {
