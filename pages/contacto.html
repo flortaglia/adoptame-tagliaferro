@@ -32,42 +32,30 @@
     </header><!--fin header-->
 
     <main><!--inicio main-->
-        <!-- <h1 class="tituloContacto">Contáctanos</h1> -->
+       
         <form action="enviar.html" class="form">
             <h1 class="form__contacto">Contáctanos</h1>
             
-                <label  for="nombre">Nombre y Apellido:  </label>
-                <input  type="text" name="name" id="nombre" placeholder="Insertar Nombre">
+            <label  for="nombre">Nombre y Apellido:  </label>
+            <input  type="text" name="name" id="nombre" placeholder="Insertar Nombre">
             
+            <label for="mail">E-mail: </label>
+            <input type="email" name="email" id="mail" placeholder="Insertar E-mail">
             
-                <label for="mail">E-mail: </label>
-                <input type="email" name="email" id="mail" placeholder="Insertar E-mail">
+            <label for="motivo">Motivo: </label>
+            <select name="reason" id="reason">
+                <option value="adoptar">Adoptar</option>
+                <option value="transito">Tránsito</option>
+                <option value="donar">Donar</option>
+                <option value="otro">Otro</option>
+            </select>
             
-                <label for="motivo">Motivo: </label>
-                <select name="reason" id="reason">
-                    <option value="adoptar">Adoptar</option>
-                    <option value="transito">Tránsito</option>
-                    <option value="donar">Donar</option>
-                    <option value="otro">Otro</option>
-                </select>
-            
-                <label for="newsletter">Quiero suscribirme a las Newsletter</label>
-                <input type="checkbox" class="form__checkbox" name="suscribeToNewsletter" id="newsletter">
-            
-        
-            
-                               
-                   
-                <img class="form__imagen" src="../img/hola.png" alt="Hola adoptame- Foto cariñosa perros y gatos"> 
-                
-                
-                    <textarea class="form__textarea"  name="message" id="fondo" cols="30" rows="10" autofocus placeholder="Ingresa tu mensaje"></textarea>
-                
-                
-                
-            
-                     
-            
+            <label for="newsletter">Quiero suscribirme a las Newsletter</label>
+            <input type="checkbox" class="form__checkbox" name="suscribeToNewsletter" id="newsletter">
+               
+            <img class="form__imagen" src="../img/hola.png" alt="Hola adoptame- Foto cariñosa perros y gatos">    
+            <textarea class="form__textarea"  name="message" id="fondo" cols="30" rows="10" autofocus placeholder="Ingresa tu mensaje"></textarea>
+
             <input type="submit" value="Enviar" class="form__boton">
             <input type="reset" value="Limpiar Formulario" class="form__boton">
         </form>
@@ -96,7 +84,7 @@
         </ul>
     </footer><!--Fin footer-->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>
