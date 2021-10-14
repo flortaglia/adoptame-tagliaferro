@@ -1,9 +1,5 @@
 .mainIndex{ 
     @include grid(repeat(3,1fr), (auto auto 1fr), $rem2);
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: auto auto 1fr;
-    // gap: $rem1;
     justify-items:center;   
     align-items: center;  
      
@@ -16,17 +12,14 @@
     &__aside{
         margin: $rem2;
         text-align: center;
-
         cursor:pointer;
         position:relative;
         padding:$rem1 $rem2;
-    
         transition:all 1s;
+
         &:after,&:before{
         content:" "; 
         @include dimensiones($rem10, $rem5);
-        // width:$rem10;
-        // height:$rem5;
         position:absolute;
         border :0px solid #fff;
         transition:all 1s;
@@ -66,10 +59,7 @@
         justify-self: center;
         &__imagen{
             @include dimensiones(100%, $rem2 * 10);
-            // width: 100%;
-            // height: $rem2 * 10;
             padding: $rem1;
-            // background:lightsteelblue;
             background-color: #95B2B0;
         }
         &__links{
@@ -79,10 +69,7 @@
             margin-bottom: $rem2; 
             color: #212529; 
            
-        }
-
-        
-        
+        }  
     }
 }
 
