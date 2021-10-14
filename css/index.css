@@ -436,7 +436,8 @@ header {
     .form__input {
       grid-column: 1/2; }
       .form__input__picture__textarea {
-        width: 100%; }
+        width: 100%;
+        margin-top: 0rem; }
       .form__input__picture__imagen {
         display: none; } }
 
