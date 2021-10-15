@@ -16,6 +16,9 @@ html {
 a {
   text-decoration: none; }
 
+a:hover {
+  color: #0a58ca; }
+
 ul, ol {
   list-style-type: none; }
 
