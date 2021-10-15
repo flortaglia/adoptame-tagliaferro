@@ -14,7 +14,7 @@
         margin: 3rem 0 1rem 0;
     }    
     &__imagen{
-        @include dimensiones(100%, auto);
+        @include dimensiones(90%, auto);
         align-self: center;
     }
     &__titulo2{ 
