@@ -177,43 +177,34 @@ header {
 
 .mainNosotros {
   display: flex;
-  flex-direction: column; }
-
-.seccionNosotros {
-  margin: 0 auto 2rem auto;
-  width: 100%;
-  height: auto;
-  display: flex;
   flex-direction: column;
   gap: 4rem; }
-  .seccionNosotros__titulo {
+  .mainNosotros__titulo {
     padding: 0;
     margin: 3rem 0 1rem 0; }
-  .seccionNosotros__imagen {
-    width: 90%;
-    height: auto;
+  .mainNosotros__imagen {
     align-self: center; }
-  .seccionNosotros__titulo2 {
+  .mainNosotros__titulo2 {
     margin-top: 2rem;
     padding-left: 0rem;
     margin-left: 0rem; }
-  .seccionNosotros__titulo3 {
+  .mainNosotros__titulo3 {
     margin-bottom: 2rem; }
-    .seccionNosotros__titulo3__link {
+    .mainNosotros__titulo3__link {
       font-size: 1em; }
-  .seccionNosotros__parrafo {
+  .mainNosotros__parrafo {
     align-self: center;
     position: relative;
     background: #b174ce;
     padding: 3rem 5rem;
     margin: 1rem; }
-    .seccionNosotros__parrafo::before {
+    .mainNosotros__parrafo::before {
       background: #FA58AC;
       transform: rotate(3deg); }
-    .seccionNosotros__parrafo::after {
+    .mainNosotros__parrafo::after {
       background: #81f7d8;
       transform: rotate(-3deg); }
-    .seccionNosotros__parrafo::after, .seccionNosotros__parrafo::before {
+    .mainNosotros__parrafo::after, .mainNosotros__parrafo::before {
       content: " ";
       width: 100%;
       height: 100%;
@@ -411,9 +402,9 @@ header {
     display: block;
     margin-left: 0;
     padding-left: 0; }
-  .seccionNosotros__parrafo::before {
+  .mainNosotros__parrafo::before {
     transform: rotate(6deg); }
-  .seccionNosotros__parrafo::after {
+  .mainNosotros__parrafo::after {
     transform: rotate(-6deg); }
   .error {
     background-image: none; } }
@@ -436,13 +427,11 @@ header {
     margin: 2rem auto; }
     .form__textarea {
       width: 100%; }
-  .seccionNosotros__imagen {
+  .mainNosotros__parrafo {
     width: 90%; }
-  .seccionNosotros__parrafo {
-    width: 90%; }
-    .seccionNosotros__parrafo::before {
+    .mainNosotros__parrafo::before {
       background: none; }
-    .seccionNosotros__parrafo::after {
+    .mainNosotros__parrafo::after {
       background: none; }
   .error__titulo1, .error__titulo2 {
     font-size: 3em; }
@@ -450,7 +439,7 @@ header {
     font-size: 2.5em; } }
 
 @media only screen and (max-width: 576px) {
-  .seccionNosotros__parrafo {
+  .mainNosotros__parrafo {
     text-align: center;
     word-spacing: 0.2rem; }
   .form {
