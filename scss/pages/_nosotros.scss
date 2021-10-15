@@ -8,14 +8,13 @@
     @include dimensiones(100%, auto);
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     &__titulo{
         padding: 0;
         margin: 3rem 0 1rem 0;
     }    
     &__imagen{
         @include dimensiones(100%, auto);
-        margin: 2rem; 
         align-self: center;
     }
     &__titulo2{ 
