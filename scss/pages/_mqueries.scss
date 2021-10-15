@@ -197,7 +197,13 @@
             
         
     }
-   
+    .navigation{
+        &__menu{
+            &__links{
+                padding: 1.5rem;
+            }
+        }
+    }
     
 }
 
