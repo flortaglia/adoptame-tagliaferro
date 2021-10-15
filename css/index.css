@@ -437,7 +437,7 @@ header {
     .form__textarea {
       width: 100%; }
   .seccionNosotros__imagen {
-    width: 100%; }
+    width: 90%; }
   .seccionNosotros__parrafo {
     width: 90%; }
     .seccionNosotros__parrafo::before {
