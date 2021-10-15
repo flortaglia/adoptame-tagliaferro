@@ -30,8 +30,16 @@
         </nav>
     </header><!--fin header-->
     <main class="recibido">
-        <h1>Muchas gracias por contactarnos</h1>
-        <img src="../img/gracias1.jpg" alt="foto de agradecimiento">
+        <h1>Gracias por contactarnos</h1>
+        <img  srcset="..img/gracias1-290w.jpg 290w,
+            ../img/gracias1-400w.jpg 360w,
+            ../img/gracias1.jpg 529w"
+            sizes="(max-width: 460px) 290px,
+            (max-width: 700px) 400px,
+            500px"
+            src="../img/gracias1.jpg" alt="foto de agradecimiento"
+        >
+        <!-- <img src="../img/gracias1.jpg" alt="foto de agradecimiento"> -->
     </main>
 
     <footer class="footer"><!--inicio footer-->
