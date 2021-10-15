@@ -33,7 +33,12 @@
         
         <section class="seccionNosotros"><!--inicio Imagenes Random-->
             <h1 class="seccionNosotros__titulo">Nuestro Trabajo</h1>
-            <img class="seccionNosotros__imagen" src="../img/nosotros.jpg" alt="Nuestro Trabajo- Persona jugando con perros">
+            <picture>
+                <source media="(min-width:1000px)" srcset="../img/nosotros.jpg">
+                <source media="(min-width:500px)" srcset="../img/gracias1-400w.jpg">
+                <img src="../img/error.jpg" alt="Flowers" style="width:auto;">
+            </picture>
+            <!-- <img class="seccionNosotros__imagen" src="../img/nosotros.jpg" alt="Nuestro Trabajo- Persona jugando con perros"> -->
             
             <p class="seccionNosotros__parrafo">Somos un grupo de personas, que amamos los animales y los ayudamos a encontrar una familia.
                 Muchas veces estos son abandonados a su suerte en las calles de nuestra ciudad, los rescatamos,
