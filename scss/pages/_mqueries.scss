@@ -110,7 +110,9 @@
             }
         }
     }
-        
+    .error{
+        background-image: none;
+    }    
               
 }
 @media only screen and (max-width:768px) {
@@ -141,9 +143,7 @@
            
         
     }
-    
-    
-    
+
     .seccionNosotros{
         
         &__imagen{
@@ -164,7 +164,14 @@
         }
         
     }
-   
+    .error{
+        &__titulo1, &__titulo2{
+            font-size: 3em;
+        }
+        &__texto{
+            font-size: 2.5em;
+        }
+    }
     
 } 
 @media only screen and (max-width:576px) {

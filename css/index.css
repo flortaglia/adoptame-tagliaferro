@@ -319,7 +319,6 @@ header {
 /*Errores*/
 .error {
   width: 80vw;
-  height: 70vh;
   margin: 10rem auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -336,7 +335,8 @@ header {
   .error__titulo2 {
     font-size: 4em; }
   .error__texto {
-    font-size: 3em; }
+    font-size: 3em;
+    text-align: justify; }
     .error__texto__link {
       text-decoration: underline; }
   .error__imagen {
@@ -415,7 +415,9 @@ header {
   .seccionNosotros__parrafo::before {
     transform: rotate(6deg); }
   .seccionNosotros__parrafo::after {
-    transform: rotate(-6deg); } }
+    transform: rotate(-6deg); }
+  .error {
+    background-image: none; } }
 
 @media only screen and (max-width: 768px) {
   main {
@@ -442,7 +444,11 @@ header {
     .seccionNosotros__parrafo::before {
       background: none; }
     .seccionNosotros__parrafo::after {
-      background: none; } }
+      background: none; }
+  .error__titulo1, .error__titulo2 {
+    font-size: 3em; }
+  .error__texto {
+    font-size: 2.5em; } }
 
 @media only screen and (max-width: 576px) {
   .seccionNosotros__parrafo {

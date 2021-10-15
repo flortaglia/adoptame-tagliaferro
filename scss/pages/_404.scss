@@ -1,6 +1,5 @@
 .error{
     width: 80vw;
-    height: 70vh;
     margin: $rem10 auto;
     @include grid (1fr,auto,$rem2);
     align-content: center;
@@ -17,6 +16,7 @@
     }
     &__texto{
         font-size: 3em;
+        text-align: justify;
         &__link{
             text-decoration: underline;
         }
