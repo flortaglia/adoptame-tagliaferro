@@ -441,7 +441,8 @@ header {
 @media only screen and (max-width: 576px) {
   .mainNosotros__parrafo {
     text-align: center;
-    word-spacing: 0.2rem; }
+    word-spacing: 0.2rem;
+    padding: 2rem 1rem; }
   .form {
     display: grid;
     grid-template-columns: 1fr;
