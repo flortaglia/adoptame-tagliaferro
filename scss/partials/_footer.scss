@@ -1,5 +1,4 @@
 
-
 .footer{ 
     display: flex;
     flex-flow: row nowrap;
@@ -24,11 +23,9 @@
             
         }
         &__mapa, &__mail{
-            // color: blue;
             color: $colorLetraFooter;
         }
         &__whatsapp{
-            // color: green;
             color: $colorLetraFooter;
         }
         
@@ -62,14 +59,12 @@
     color:blue;
 }
 .fa-instagram{
-    // color: #ee4390;
     color: $colorLetraFooter;
 }
 .fa-instagram:hover{
     color: #ee4390;
 }
 .fa-twitter{
-    // color:#03a9f4 ;
     color: $colorLetraFooter;
 }
 .fa-twitter:hover{

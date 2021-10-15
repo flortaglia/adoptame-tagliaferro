@@ -79,33 +79,27 @@
         }      
     }
     .form{
- 
         &__boton{
             margin-top: 0rem;
         }    
-
     }
     .mainAyuda__titulo1{
         display: none;
     }
     .sectionAyuda{
-        margin-top: 2rem;
-        
+        margin-top: 2rem;   
     }
     #mainAyuda__titulo2{
         display: block;
         margin-left: 0;
         padding-left: 0;
-
     }
     .mainNosotros{
         &__parrafo{
-            &::before{
-                
+            &::before{    
                 transform: rotate(6deg);
             }
-            &::after{
-                
+            &::after{    
                 transform: rotate(-6deg);
             }
         }
@@ -176,27 +170,17 @@
     }
     .form{
         @include grid(1fr, auto, 1rem);
-        // &__checkbox{
-        //     justify-self: center;
-        // }
-        &__contacto{
-            
-            grid-column: 1/2 ;
-           
+        &__contacto{    
+            grid-column: 1/2 ;   
         }
-        &__imagen{
-           
+        &__imagen{   
             display: none;
-        }
-            
+        }    
         &__textarea{
-                    width: 100%;
-                    margin-top: 0rem;
-                    grid-column: 1/2 ;
-        }
-                
-            
-        
+            width: 100%;
+            margin-top: 0rem;
+            grid-column: 1/2 ;
+        }    
     }
     .navigation{
         &__menu{
